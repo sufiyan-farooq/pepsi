@@ -1,0 +1,335 @@
+@font-face {
+    font-family: sofia;
+    src: url(image-font/SofiaPro-Black.otf);
+}
+@font-face {
+    font-family: poopin;
+    src: url(image-font/Poppins-Regular.ttf);
+}
+.header {
+    background-color: #0065c3;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+
+
+
+}
+.img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    margin-left: 20px;
+    
+}
+.img:hover {
+    /* transform: translateX(2px) rotate(560deg); */
+    /* transform: matrix(1, 0, 0, 1, 0, 0); */
+    transform: rotate(360deg); 
+    
+
+
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    font-family: sofia;
+    margin-left: 40px;
+
+}
+.buy-pepsi a{
+    font-size: small;
+    font-family: sofia;
+    border: 2px solid;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    position: absolute;
+    right: 40px;
+    margin-top: 30px;
+}
+.buy-pepsi a:hover{
+    color: blue;
+    background-color: white;
+}
+.pepsi img{
+    position: absolute;
+    top: 260px;
+margin-left: 30px;
+}
+.unlock img{
+    position: absolute;
+    top: 250px;
+    margin-left:670px;
+}
+
+.button-get a{
+    text-decoration: none;
+    border: 2px solid;
+    position: absolute;
+    top: 580px;
+    color: white;
+    font-family: sofia;
+    padding: 10px;
+    padding-left: 35px ;
+    padding-right: 35px;
+    border-radius: 20px;
+margin-left: 800px;
+}
+.button-get a:hover{
+    background-color: white;
+    color: #0065c3;
+    
+    
+}
+.paragraph p{
+    position: absolute;
+    top: 650px;
+margin-left: 670px;
+color: white;
+font-size: small;
+}
+.background2 {
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+top: 740px;
+}
+.improved img{
+    position: absolute;
+    top: 55px;
+    margin-left: 450px;
+
+}
+.headline img{
+    position: absolute;
+    top: 80px;
+    margin-left: 700px;
+}
+.believe img{
+    position: absolute;
+    top: 320px;
+    margin-left:760px ;
+}
+.video1 iframe{
+
+    width: 270px;
+    height: 130px;
+    position: absolute;
+    top: 450px;
+    margin-left: 650px;
+}
+.video2 iframe{
+
+    width: 270px;
+    height: 130px;
+    position: absolute;
+    top: 450px;
+    margin-left: 950px;
+}
+.background3{
+    position: absolute;
+    top: 600px;
+}
+.nitro-pepsi img{
+    width: 400px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    margin-left: 270px;
+}
+.nitro-logo img{
+    position: absolute;
+     top: 100px;
+     width: 350px;
+     height: 220px;
+     margin-left: 720px;
+
+}
+.smooth p{
+font-family: sofia;
+font-size: x-large;
+position: absolute;
+top: 310px;
+color: #fff;
+margin-left: 720px;
+
+}
+
+.learn-button a{
+    text-decoration: none;
+    border: 2px solid;
+    position: absolute;
+    top: 380px;
+    color: white;
+    font-family: sofia;
+    padding: 10px;
+    padding-left: 35px ;
+    padding-right: 35px;
+    border-radius: 20px;
+margin-left: 800px;
+}
+.learn-button a:hover{
+    background-color: white;
+    color: #0065c3;
+    
+    
+}
+.background4{
+    background-color: #265cc5;
+    width: 100%;
+    height: 1300px;
+    
+}
+.thumbnail1 img{
+    position: absolute;
+    top: 1250px;
+    margin-left: 20px;
+  width: 380px;
+  height: 230px;
+}
+.thumbnail2 img{
+    position: absolute;
+    top: 1600px;
+    margin-left: 20px;
+    width: 380px;
+    height: 230px;
+
+}
+.thumbnail3 img{
+    position: absolute;
+    top: 1200px;
+    width: 820px;
+    height: 700px;
+    margin-left: 430px;
+}
+.better-pepsi img{
+    position: absolute;
+    top: 1750px;
+    margin-left: 800px;
+    width: 450px;
+}
+.ribs p{
+    background-color:#1437bf ;
+    text-align: center;
+position: absolute;
+top: 1450px;
+color: white;
+font-family: sofia;
+padding: 10px;
+width: 360px;
+margin-left: 
+20px;
+}
+.nachos p{
+    background-color:#1437bf ;
+    text-align: center;
+position: absolute;
+top: 1815px;
+color: white;
+font-family: sofia;
+padding: 10px;
+width: 360px;
+margin-left: 
+20px;
+}
+.background5{
+    background-color: #004996
+    ;
+    width: 100%;
+    height: 700px;
+    
+}
+.mango-pepsi img{
+    position: absolute;
+    top: 1910px;
+    width: 800px;
+    height: 690px;
+    margin-left: 460px;
+
+}
+.mango img{
+    position: absolute;
+    top: 2000px ;
+    width: 350px;
+    height: 250px;
+margin-left: 20px;
+}
+.like img{
+    position: absolute;
+    top: 2500px;
+    width: 350px;
+    height: 30px;
+    margin-left:20px ;
+}
+.background6 img{
+    position: absolute;
+    top: 3322px;
+    width: 100%;
+    height: 650px;
+}
+.twil-can img{
+    position: absolute;
+    top: 3400px;
+    width: 650px;
+    height: 572px;
+}
+.twil-header img{
+    position: absolute;
+    top: 3500px;
+    width: 600px;
+    height: 250px;
+    margin-left:610px;
+}
+.pepsi-cans img{
+  position: absolute;
+  top: 4160px;
+  width: 450px;
+  height: 230px;
+  margin-left: 670px;
+}
+.all p{
+    color: white;
+    font-family: sofia;
+    position: absolute;
+    top: 4000px;
+    font-size: 50px
+    ;
+    
+margin-left: 100px;
+
+
+
+}
+.caption p{
+    color: white;
+    font-family: poopin;
+    position: absolute;
+    top: 4300px;
+    font-size: small
+    ;
+    
+margin-left:100px;
+}
+.button-product a{
+    font-size: small;
+    text-decoration: none;
+    border: 2px solid;
+    position: absolute;
+    top: 4400px;
+    color: white;
+    font-family: sofia;
+    padding: 10px;
+    padding-left: 35px ;
+    padding-right: 35px;
+    border-radius: 20px;
+margin-left: 100px;
+}
+.button-product a:hover{
+    background-color: white;
+    color: #0065c3;
+    
+    
+}
